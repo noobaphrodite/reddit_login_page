@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+}
+
+.form_image {
+    height: screen;
+
+}
+.image{
+    height: 100vh;
+    width: 144px;
+}
+.form_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.form_heading {
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 8px;
+}
+
+.subtitle {
+    padding-bottom: 48px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.subtitle a {
+    color: #0072b1;
+    font-weight: 500;
+}
+
+.or{
+    display: flex;
+    align-items: center;
+    margin: 30px 0px;
+    width: 290px; 
+}
+
+.or p {
+    margin: 0px 18px;
+    font-weight: 500;
+    color: gray;
+    font-size: 15px;
+}
+
+.dash{
+    height: 1px;
+    width: 130px;
+    background-color: #DEE0E4;
+}
+
+p{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.cont_buttons {
+    display: flex;
+    flex-direction: column;
+}
+.cont_buttons button {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-radius: 25px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    width: 290px;
+    margin-bottom: 9px;
+    border-color: #DEE0E4;
+    border-width: 1px;
+    outline: none;
+    background-color: white;
+}
+
+.icon {
+    height: 25px;
+    width: 25px;
+    border-radius: 100%;
+    margin: 0px 50px 0px 10px;
+}
+
+
+.inputs div input {
+    width: 290px;
+    height: 48px;
+    margin: 5px 0px; 
+    border-radius: 4px;
+    border-color: #DEE0E4;
+    padding: 10px;
+}
+
+.submit {
+    width: 290px;
+    margin: 5px 0px; 
+    height: 35px;
+    font-weight: 700;
+    color: white;
+    background-color: #0072b1;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+.forgot_password {
+    font-size: 12px;
+    margin: 8px 0px 26px 0px;
+}
+
+.forgot_password span {
+    color: #0072b1;
+    font-weight: 500;
+}
+
+.new_to_reddit {
+    font-size: 12px;
+}
+
+.new_to_reddit a {
+    color: #0072b1;
+    font-weight: 600;
+}
